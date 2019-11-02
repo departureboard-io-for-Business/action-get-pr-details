@@ -1,0 +1,13 @@
+name: 'Get PR Details'
+description: 'Gets important PR details such as the URL, and requestor'
+author: 'Benjamin Maynard'
+outputs:
+  prurl:
+    description: 'The URL of the PR'
+  prid:
+    description: 'The ID of the PR'
+  prcreator:
+    description: 'The creator of the PR'
+runs:
+  using: 'docker'
+  image: 'Dockerfile'
