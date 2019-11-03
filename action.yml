@@ -8,6 +8,14 @@ outputs:
     description: 'The ID of the PR'
   prcreator:
     description: 'The creator of the PR'
+  prmerged:
+    description: 'The PR Merge Status'
+  praction:
+    description: 'The PR Action' 
+  prhead:
+    description: 'The PR head label' 
+  prheadsha:
+    description: 'The PR head SHA' 
 runs:
   using: 'docker'
   image: 'Dockerfile'
