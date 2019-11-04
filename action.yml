@@ -16,6 +16,8 @@ outputs:
     description: 'The PR head branch' 
   prheadsha:
     description: 'The PR head SHA' 
+  reponame:
+    description: 'The repo name' 
 runs:
   using: 'docker'
   image: 'Dockerfile'
